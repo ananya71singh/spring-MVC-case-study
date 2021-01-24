@@ -1,0 +1,242 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+header
+{
+	background-color: #305496;
+	color: #fff;
+	font-family: Arial;
+	overflow: hidden;
+}
+.main
+{
+	height: 59%;
+	overflow: hidden;
+}
+.main-customer-notification
+{
+	height: 45%;
+}
+.logo
+{
+	display: inline-block;
+	position: absolute;
+	top: 1.5%;
+}
+
+.page-title
+{
+	margin: 20px;
+	font-size: 28px;
+	float: left;
+	width: 60%; 
+}
+.status
+{
+	color: #09b358;
+	width: 100%;
+	text-align: center;
+}
+.status-edit-success
+{
+	color: #09b358;
+	width: 41.5%;
+	text-align: right;
+}
+
+nav
+{
+	float: right;
+	margin: 20px;
+	width: 10%;
+}
+
+nav a
+{
+	color: #fff;
+	margin-right: 20px;
+}
+
+footer
+{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	background-color: #bfbfbf;
+	padding: 15px;
+}
+.menu-title
+{
+	font-weight: lighter;
+	width: 31.5%;
+	text-align: right;
+	padding-top: 5%; 
+}
+.menu-title-customer
+{
+	font-weight: lighter;
+	width: 31.5%;
+	text-align: right;
+	padding-top: 5%; 
+}
+.menu-title-edit-success
+{
+	font-weight: lighter;
+	width: 40%;
+	text-align: right;
+	padding-top: 5%; 
+}
+.menu-title-edit
+{
+	font-weight: lighter;
+	width:34.7%;
+	text-align: right;
+	padding-top: 5%; 
+}
+.menu-title-cart
+{
+	font-weight: lighter;
+	width: 30%;
+	text-align: right;
+	padding-top: 5%;
+}
+table
+{
+	margin: 0px auto;
+}
+.menu-list
+{
+	margin: 0 auto;
+	width: 850px;
+	color: #5a5959;
+}
+.menu-list .name-a
+{
+	text-align: left;
+}
+.menu-list .price-a
+{
+	text-align: right;
+}
+.menu-list .free-dev-a,.category-a,.action-a,.date-of-launch-a,.active-a
+{
+	text-align: center;
+}
+.menu-list th
+{
+	width: 160px;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.menu-list td
+{
+	line-height: 1.5;
+}
+
+.edit-menu-item
+{
+	margin: 0 auto;
+	width: 850px;
+	color: #5a5959;
+}
+.edit-menu-item #name
+{
+	width:100%;
+	height: 35px;
+}
+
+
+.edit-menu-item #price
+{
+	height: 30px;
+}
+.edit-menu-item #active
+{
+	margin: 0;
+	padding: 0;
+	height: 15px;
+	width: 18px;
+}
+.edit-menu-item #dateOfLaunch
+{
+	height: 30px;
+}
+.edit-menu-item #category
+{
+	height: 30px;
+	width: 100%;
+}
+.edit-menu-item .free-dev
+{
+	font-weight: bold;
+}
+.edit-menu-item #free-dev
+{
+	height: 20px;
+	width: 20px;
+}
+.edit-menu-item .name,.price,.active,.date-of-launch,.category
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+.edit-menu-item #submit
+{
+	background-color: #305496;
+	color: #fff;
+	padding: 15px 50px 15px 50px;
+	border: none;
+	box-shadow: none;
+}
+
+.cart-details th
+{
+	width: 150px;
+	line-height: 1.5;
+}
+.cart-details th
+{
+	line-height: 1.5;
+}
+
+.name-cart
+{
+	text-align: left;
+}
+.price-cart
+{
+	text-align: right;
+}
+.free-dev-cart,.category-cart,.action-cart,.date-of-launch-cart,.active-cart
+{
+	text-align: center;
+}
+input#date-of-launch{
+	height: 30px;
+}
+.cart-notification
+{
+	color: #09b358;
+	text-align: center;
+}
+
+.no-items-in-cart
+{
+	color: #898380;
+	text-align: center;
+}
+.no-items-in-cart a
+{
+	color: #0a75cd;
+}
+
+/*implementation of error spans*/
+#errors
+{
+	color:red;
+}
